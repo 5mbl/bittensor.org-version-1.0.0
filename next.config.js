@@ -53,6 +53,9 @@ const securityHeaders = [
 ]
 
 module.exports = withBundleAnalyzer({
+  images: {
+    domains: ['strapi-deploy-tut.herokuapp.com']
+  },
   reactStrictMode: true,
   pageExtensions: ['js', 'jsx', 'md', 'mdx'],
   eslint: {

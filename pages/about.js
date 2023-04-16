@@ -1,4 +1,4 @@
-import { MDXLayoutRenderer } from '@/components/MDXComponents'
+/* import { MDXLayoutRenderer } from '@/components/MDXComponents'
 import { getFileBySlug } from '@/lib/mdx'
 
 const DEFAULT_LAYOUT = 'AuthorLayout'
@@ -19,3 +19,4 @@ export default function About({ authorDetails }) {
     />
   )
 }
+ */

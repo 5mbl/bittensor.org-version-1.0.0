@@ -2,7 +2,7 @@ const siteMetadata = {
   title: 'Bittensor.org',
   author: 'Editor',
   headerTitle: 'Bittensor.org',
-  description: 'A blog created with Next.js and Tailwind.css',
+  description: 'Latest published Articles about Bittensor',
   language: 'en-us',
   theme: 'system', // system, dark or light
   siteUrl: 'https://tailwind-nextjs-starter-blog.vercel.app',
