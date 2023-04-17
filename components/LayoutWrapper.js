@@ -1,12 +1,11 @@
-import siteMetadata from '@/data/siteMetadata'
-import headerNavLinks from '@/data/headerNavLinks'
-import Logo from '@/data/logo.svg'
-import BittensorLogo from "@/data/bittensor-logo.svg"
-import Link from './Link'
-import SectionContainer from './SectionContainer'
-import Footer from './Footer'
-import MobileNav from './MobileNav'
-import ThemeSwitch from './ThemeSwitch'
+import siteMetadata from "@/data/siteMetadata";
+import headerNavLinks from "@/data/headerNavLinks";
+import BittensorLogo from "@/data/bittensor-logo-svg.svg";
+import Link from "./Link";
+import SectionContainer from "./SectionContainer";
+import Footer from "./Footer";
+import MobileNav from "./MobileNav";
+import ThemeSwitch from "./ThemeSwitch";
 
 const LayoutWrapper = ({ children }) => {
   return (
@@ -17,10 +16,9 @@ const LayoutWrapper = ({ children }) => {
             <Link href="/" aria-label={siteMetadata.headerTitle}>
               <div className="flex items-center justify-between">
                 <div className="mr-3">
-
-                  <BittensorLogo className="inline-block w-20 h-20" />
+                  <BittensorLogo className="inline-block h-20 w-20" />
                 </div>
-                {typeof siteMetadata.headerTitle === 'string' ? (
+                {typeof siteMetadata.headerTitle === "string" ? (
                   <div className="hidden h-6 text-2xl font-semibold sm:block">
                     {siteMetadata.headerTitle}
                   </div>
@@ -50,7 +48,7 @@ const LayoutWrapper = ({ children }) => {
         <Footer />
       </div>
     </SectionContainer>
-  )
-}
+  );
+};
 
-export default LayoutWrapper
+export default LayoutWrapper;
